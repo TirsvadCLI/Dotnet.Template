@@ -164,12 +164,12 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 [GithubIssue-url]: https://github.com/TirsvadCLI/Dotnet.Template/issues/
 [Repos-size-shield]: https://img.shields.io/github/repo-size/TirsvadCLI/Dotnet.Template?style=for-the-badg
 
-[Logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/logo/32x32/logo.png
+[Logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/logo/32x32/logo.png
 
 <!-- If this is a Nuget package -->
 <!-- [nuget-shield]: https://img.shields.io/nuget/dt/NugetPackageName?style=for-the-badge -->
 <!-- [nuget-url]: https://www.nuget.org/packages/NugetPackageName/ -->
 
 <!-- If there is screenshots -->
-<!-- [Screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/small/Screenshot1.png] -->
-<!-- [Screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/Screenshot1.png -->
+<!-- [Screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/small/Screenshot1.png] -->
+<!-- [Screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/Screenshot1.png -->
