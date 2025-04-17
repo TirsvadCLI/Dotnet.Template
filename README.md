@@ -13,6 +13,21 @@
 <!-- ![Screenshot1][Screenshot1-url] -->
 
 ## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [NuGet Package](#nuget-package)
+    - [Clone the repo](#clone-the-repo)
+- [Usage](#usage)
+  - [Notes](#notes)
+- [Example of code](#example-of-code)
+- [Contributing](#contributing)
+- [Bug / Issue Reporting](#bug--issue-reporting)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -64,6 +79,8 @@ In project file for library, add the following lines:
 ## Getting Started
 
 ### Prerequisites
+
+- Dotnet 9.0 or later
 
 ### Installation
 
