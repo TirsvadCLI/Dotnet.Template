@@ -1,0 +1,2 @@
+# Dotnet.Template
+Template
