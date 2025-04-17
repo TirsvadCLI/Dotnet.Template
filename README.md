@@ -1,4 +1,5 @@
-﻿﻿[![NuGet Downloads][nuget-shield]][nuget-url]
+﻿<!-- If this is a Nuget package -->
+<!-- [![NuGet Downloads][nuget-shield]][nuget-url] -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -8,7 +9,8 @@
 
 # ![Logo][Logo]
 
-![Screenshot1][Screenshot1-url]
+<!-- If there is screenshots -->
+<!-- ![Screenshot1][Screenshot1-url] -->
 
 ## Table of Contents
 
@@ -67,15 +69,7 @@ In project file for library, add the following lines:
 
 #### NuGet Package
 
-##### Windows
-
 ```Powershell
-dotnet add package NugetPackageName
-```
-
-##### Linux
-
-```bash
 dotnet add package NugetPackageName
 ```
 
@@ -85,17 +79,6 @@ dotnet add package NugetPackageName
 
 ```bash
 git clone git@github.com:TirsvadCLI/Dotnet.Template.git
-```
-
-
-##### Windows
-
-```Powershell
-```
-
-##### Linux
-
-```bash
 ```
 
 ## Usage
@@ -161,12 +144,15 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 [license-url]: https://github.com/TirsvadCLI/Dotnet.Template/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jens-tirsvad-nielsen-13b795b9/
-[nuget-shield]: https://img.shields.io/nuget/dt/NugetPackageName?style=for-the-badge
-[nuget-url]: https://www.nuget.org/packages/NugetPackageName/
 [GithubIssue-url]: https://github.com/TirsvadCLI/Dotnet.Template/issues/
 [Repos-size-shield]: https://img.shields.io/github/repo-size/TirsvadCLI/Dotnet.Template?style=for-the-badg
 
 [Logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/logo/32x32/logo.png
 
-[Screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/small/Screenshot1.png]
-[Screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/Screenshot1.png
+<!-- If this is a Nuget package -->
+<!-- [nuget-shield]: https://img.shields.io/nuget/dt/NugetPackageName?style=for-the-badge -->
+<!-- [nuget-url]: https://www.nuget.org/packages/NugetPackageName/ -->
+
+<!-- If there is screenshots -->
+<!-- [Screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/small/Screenshot1.png] -->
+<!-- [Screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/master/image/Screenshot1.png -->
