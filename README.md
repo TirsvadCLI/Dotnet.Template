@@ -1,4 +1,4 @@
-﻿<!-- If this is a Nuget package -->
+<!-- If this is a Nuget package -->
 <!-- [![NuGet Downloads][nuget-shield]][nuget-url] -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -10,7 +10,7 @@
 # ![Logo][Logo]
 
 <!-- If there is screenshots -->
-<!-- ![Screenshot1][Screenshot1-url] -->
+<!-- ![Screenshot1][screenshot1-url] -->
 
 ## Table of Contents
 - [Overview](#overview)
@@ -92,7 +92,7 @@ dotnet add package NugetPackageName
 
 #### Clone the repo
 
-![Repo size][Repos-size-shield]
+![Repo size][repos-size-shield]
 
 ```bash
 git clone git@github.com:TirsvadCLI/Dotnet.Template.git
@@ -119,7 +119,7 @@ Contributions are what make the open-source community such an amazing place to l
 If you encounter a bug or have an issue to report, please follow these steps:  
 
 1. **Go to the Issues Page**  
-  Navigate to the [GitHub Issues page][GithubIssue-url].  
+  Navigate to the [GitHub Issues page][githubIssue-url].  
 
 2. **Click "New Issue"**  
   Click the green **"New Issue"** button to create a new issue.  
@@ -161,15 +161,15 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 [license-url]: https://github.com/TirsvadCLI/Dotnet.Template/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jens-tirsvad-nielsen-13b795b9/
-[GithubIssue-url]: https://github.com/TirsvadCLI/Dotnet.Template/issues/
-[Repos-size-shield]: https://img.shields.io/github/repo-size/TirsvadCLI/Dotnet.Template?style=for-the-badg
+[githubIssue-url]: https://github.com/TirsvadCLI/Dotnet.Template/issues/
+[repos-size-shield]: https://img.shields.io/github/repo-size/TirsvadCLI/Dotnet.Template?style=for-the-badg
 
-[Logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/logo/32x32/logo.png
+[logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/logo/32x32/logo.png
 
 <!-- If this is a Nuget package -->
 <!-- [nuget-shield]: https://img.shields.io/nuget/dt/NugetPackageName?style=for-the-badge -->
 <!-- [nuget-url]: https://www.nuget.org/packages/NugetPackageName/ -->
 
 <!-- If there is screenshots -->
-<!-- [Screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/small/Screenshot1.png] -->
-<!-- [Screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/Screenshot1.png -->
+<!-- [screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/small/Screenshot1.png] -->
+<!-- [screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/Screenshot1.png -->
