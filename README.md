@@ -1,16 +1,15 @@
 <!-- If this is a Nuget package -->
-<!-- [![NuGet Downloads][nuget-shield]][nuget-url] -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-# ![Logo][Logo]
+[![NuGet Downloads][nuget-shield]][nuget-url] [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- If this is a release package on github -->
+<!--
+[![downloads][downloads-shield]][downloads-url]  [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+-->
+# ![Logo][Logo] Template
 
 <!-- If there is screenshots -->
-<!-- ![Screenshot1][screenshot1-url] -->
+<!--
+![Screenshot1][screenshot1-url]
+-->
 
 ## Table of Contents
 - [Overview](#overview)
@@ -104,6 +103,8 @@ git clone git@github.com:TirsvadCLI/Dotnet.Template.git
 
 ## Example of code
 
+See example [here][example-url]
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -166,10 +167,16 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 
 [logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/logo/32x32/logo.png
 
+<!-- If there is example code -->
+[example-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/src/Example/Example.cs
+
 <!-- If this is a Nuget package -->
-<!-- [nuget-shield]: https://img.shields.io/nuget/dt/NugetPackageName?style=for-the-badge -->
-<!-- [nuget-url]: https://www.nuget.org/packages/NugetPackageName/ -->
+[nuget-shield]: https://img.shields.io/nuget/dt/NugetPackageName?style=for-the-badge
+[nuget-url]: https://www.nuget.org/packages/NugetPackageName/
+<!-- If this is a downloadable package from github -->
+[downloads-shield]: https://img.shields.io/github/downloads/TirsvadCLI/Dotnet.Template/total?style=for-the-badge
+[downloads-url]: https://github.com/TirsvadCLI/Dotnet.Template/releases
 
 <!-- If there is screenshots -->
-<!-- [screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/small/Screenshot1.png] -->
-<!-- [screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/Screenshot1.png -->
+[screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/small/Screenshot1.png]
+[screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/Screenshot1.png
