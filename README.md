@@ -1,4 +1,4 @@
-<!-- If this is a Nuget package -->
+﻿<!-- If this is a Nuget package -->
 [![NuGet Downloads][nuget-shield]][nuget-url][![Contributors][contributors-shield]][contributors-url][![Forks][forks-shield]][forks-url][![Stargazers][stars-shield]][stars-url][![Issues][issues-shield]][issues-url][![License][license-shield]][license-url][![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- If this is a release package on github -->
 <!--
@@ -12,7 +12,7 @@
 -->
 
 ## Table of Contents
-- [Overview](#overview)
+- [Description](#description)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -28,9 +28,56 @@
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
+## Description
 
-This is a template for creating .NET projects. It includes a basic structure and some common files to get you started quickly.
+This is a template for creating .NET projects. It includes a basic structure and some common files to get started quickly.
+
+## Features
+
+## Getting Started
+
+### Prerequisites
+- Dotnet 9.0 or later
+
+### Installation
+The TirsvadWeb.Template can be installed in several ways:
+
+#### Clone the repo
+![Repo size][repos-size-shield]
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/TirsvadWeb/Dotnet.Template.git 
+    cd Dotnet.Template
+    ```
+
+1. **Restore dependencies:**
+
+    ```bash
+    dotnet restore
+    ```
+
+From here it is an example for projects using this template.
+
+1. **Update database (if needed):**
+
+    ```bash
+    dotnet ef database update --project src/Template.Infrastructure
+    ```
+
+1. **Build the project:**
+
+    ```bash
+    dotnet build
+    ```
+
+1. **Run the API:**
+
+    ```bash
+    dotnet run --project src/Template
+    ```
+
 
 Change TirsvadCLI/Dotnet.Template with the name of your project.
 Change NugetPackageName with the name of your nuget package.
@@ -50,7 +97,7 @@ In project file for library, add the following lines:
     <RepositoryUrl>https://github.com/TirsvadCLI/Dotnet.Template</RepositoryUrl>
     <PackageTags>Console</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <Description></Description>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,28 +120,10 @@ In project file for library, add the following lines:
   </ItemGroup>
 ```
 
-## Features
-
-## Getting Started
-
-### Prerequisites
-
-- Dotnet 9.0 or later
-
-### Installation
-
 #### NuGet Package
 
 ```Powershell
 dotnet add package NugetPackageName
-```
-
-#### Clone the repo
-
-![Repo size][repos-size-shield]
-
-```bash
-git clone git@github.com:TirsvadCLI/Dotnet.Template.git
 ```
 
 ## Usage
@@ -102,21 +131,39 @@ git clone git@github.com:TirsvadCLI/Dotnet.Template.git
 ### Notes
 
 ## Example of code
-
 See example [here][example-url]
 
-## Contributing
+## 📂 Folder Structure
+```plaintext
+Dotnet.Template/
+├── 📄 docs/                         # Documentation files
+│   └── 📄 doxygen/                  # Doxygen output
+├── 🖼️ images/                       # Images used in documentation
+├── 📂 src/                          # Source code for the library
+│   ├── 📦 Template/                 # Main project
+│   ├── 📦 Template.Application/     # Application layer
+│   │   ├── 📦 Models/               # Data transfer objects (DTOs)
+│   │   └── 📦 Services/             # Application services
+│   ├── 📦 Template.Infrastructure/  # Infrastructure project
+│   │   ├── 📦 Data/                 # Data access layer
+│   │   └── 📦 Services/             # Infrastructure services
+│   └── 📦 Template.Domain/          # Domain project
+│       └── 📦Entities/              # Domain entities
+└── 📂 tests/                        # Test projects
+    ├── 📦 Template.Tests/           # Unit tests for the main project
+    └── 📦 Template.IntegrationTests/ # Integration tests
+```
 
+Under folder src/** and tests/** is an example of how you can structure your project.
+This is just an example and you can change it as you like.
+Folders do not exist, but is just an example of how you can structure your project.
+
+## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Bug / Issue Reporting  
-
 If you encounter a bug or have an issue to report, please follow these steps:  
 
 1. **Go to the Issues Page**  
@@ -138,15 +185,12 @@ If you encounter a bug or have an issue to report, please follow these steps:
   Once all details are filled in, click **"Submit new issue"** to report it.  
 
 ## License
-
-Distributed under the GPL-3.0 [License][license-url].
+Distributed under the AGPL-3.0 [License][license-url].
 
 ## Contact
-
 Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 
 ## Acknowledgments
-
 - [dotnet](https://dotnet.microsoft.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -159,13 +203,13 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 [issues-shield]: https://img.shields.io/github/issues/TirsvadCLI/Dotnet.Template?style=for-the-badge
 [issues-url]: https://github.com/TirsvadCLI/Dotnet.Template/issues
 [license-shield]: https://img.shields.io/github/license/TirsvadCLI/Dotnet.Template?style=for-the-badge
-[license-url]: https://github.com/TirsvadCLI/Dotnet.Template/blob/master/LICENSE
+[license-url]: https://github.com/TirsvadCLI/Dotnet.Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jens-tirsvad-nielsen-13b795b9/
 [githubIssue-url]: https://github.com/TirsvadCLI/Dotnet.Template/issues/
 [repos-size-shield]: https://img.shields.io/github/repo-size/TirsvadCLI/Dotnet.Template?style=for-the-badg
 
-[logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/logo/32x32/logo.png
+[logo]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/images/logo/32x32/logo.png
 
 <!-- If there is example code -->
 [example-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/src/Example/Example.cs
@@ -178,5 +222,5 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 [downloads-url]: https://github.com/TirsvadCLI/Dotnet.Template/releases
 
 <!-- If there is screenshots -->
-[screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/small/Screenshot1.png]
-[screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/image/Screenshot1.png
+[screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/images/small/Screenshot1.png
+[screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Template/main/images/Screenshot1.png
